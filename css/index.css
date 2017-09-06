@@ -1,0 +1,15 @@
+
+#logo {
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo img {
+  height: 40%;
+  width: 40%;
+  margin-bottom: 5%;
+}
+nav {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}

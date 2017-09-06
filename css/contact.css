@@ -1,0 +1,15 @@
+#contact {
+  width: 60%;
+  margin: 0 auto;
+  font-family: 'IM Fell Double Pica', serif;
+}
+#contact h1 {
+  color: burlywood;
+}
+
+.details {
+  font-size: 2em;
+  color: #E74C3C;
+  margin-top: -2%;
+  text-decoration: none;
+}
