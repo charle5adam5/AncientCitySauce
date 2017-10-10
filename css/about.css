@@ -5,6 +5,10 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+#about > img {
+  width: 20em;
+  height: 20em;
+}
 #info {
   width: 30%;
   font-family: 'IM Fell Double Pica', serif;
@@ -21,8 +25,24 @@
 #bio h1 {
   color: burlywood;
 }
+#bio img {
+  height: 20em;
+  width: auto;
+}
 
-img {
-  height: 40%;
-  width: 40%;
+
+@media screen and (max-width: 700px) {
+  #about {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    margin-left: 30%;
+  }
+  #about p {
+    width: 20em;
+  }
+  #about > img {
+    width: 15em;
+    height: 15em;
+  }
 }
