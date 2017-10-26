@@ -36,7 +36,7 @@
     display: flex;
     flex-flow: column;
     justify-content: space-around;
-    margin-left: 30%;
+    align-items: flex-start;
   }
   #about p {
     width: 20em;
@@ -44,5 +44,6 @@
   #about > img {
     width: 15em;
     height: 15em;
+    margin: 0 auto;
   }
 }
